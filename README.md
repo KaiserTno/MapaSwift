@@ -22,3 +22,16 @@
 - Mostrar o ranking final após o término da partida
 - Criar opção de cadastro do usuário
 - Permitir que o usuário possa escolher a região a ser realizado o jogo
+
+## Tecnologias
+
+- Tuist
+- Carthage
+- Google StreetView SDK
+- Fastlane
+- Bitrise
+- SonarCloud
+- SwiftLint
+- SwiftGen
+- Swift Code Formatters
+- Danger
