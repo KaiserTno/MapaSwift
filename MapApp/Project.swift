@@ -20,4 +20,22 @@ import ProjectDescriptionHelpers
 // MARK: - Project
 
 // Creates our project using a helper function defined in ProjectDescriptionHelpers
-let project = Project.app(name: "MapApp", platform: .macOS, additionalTargets: [])
+let project = Project(
+    name: "MapApp",
+    organizationName: "tuist.io",
+    targets: targets()
+)
+
+private func targets() -> [Target] {
+    Project.makeAppTargets(
+        name: "MapAppMacOS",
+        platform: .macOS,
+        dependencies: []
+    )
+    +
+    Project.makeAppTargets(
+        name: "MapAppiOS",
+        platform: .iOS,
+        dependencies: []
+    )
+}

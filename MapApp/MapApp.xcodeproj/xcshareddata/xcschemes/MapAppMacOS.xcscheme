@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4A48C503B930D78226446D1B"
-               BuildableName = "MapAppTests.xctest"
-               BlueprintName = "MapAppTests"
+               BlueprintIdentifier = "13E919EBCAB4617265316541"
+               BuildableName = "MapAppMacOS.app"
+               BlueprintName = "MapAppMacOS"
                ReferencedContainer = "container:MapApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4A48C503B930D78226446D1B"
-               BuildableName = "MapAppTests.xctest"
-               BlueprintName = "MapAppTests"
+               BlueprintIdentifier = "D9BA57B3080A93D87BDDE85F"
+               BuildableName = "MapAppMacOSTests.xctest"
+               BlueprintName = "MapAppMacOSTests"
                ReferencedContainer = "container:MapApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -50,15 +50,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4A48C503B930D78226446D1B"
-            BuildableName = "MapAppTests.xctest"
-            BlueprintName = "MapAppTests"
+            BlueprintIdentifier = "13E919EBCAB4617265316541"
+            BuildableName = "MapAppMacOS.app"
+            BlueprintName = "MapAppMacOS"
             ReferencedContainer = "container:MapApp.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -66,15 +67,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4A48C503B930D78226446D1B"
-            BuildableName = "MapAppTests.xctest"
-            BlueprintName = "MapAppTests"
+            BlueprintIdentifier = "13E919EBCAB4617265316541"
+            BuildableName = "MapAppMacOS.app"
+            BlueprintName = "MapAppMacOS"
             ReferencedContainer = "container:MapApp.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

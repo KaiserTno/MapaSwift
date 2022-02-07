@@ -8,7 +8,7 @@ import Foundation
 private class BundleFinder {}
 
 extension Foundation.Bundle {
-    /// Since MapApp is a application, the bundle containing the resources is copied into the final product.
+    /// Since MapAppMacOS is a application, the bundle containing the resources is copied into the final product.
     static var module: Bundle = {
         return Bundle(for: BundleFinder.self)
     }()
@@ -17,7 +17,7 @@ extension Foundation.Bundle {
 // MARK: - Objective-C Bundle Accessor
 
 @objc
-public class MapAppResources: NSObject {
+public class MapAppMacOSResources: NSObject {
    @objc public class var bundle: Bundle {
          return .module
    }

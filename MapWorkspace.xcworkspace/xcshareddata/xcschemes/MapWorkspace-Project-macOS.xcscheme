@@ -14,10 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AEE7856710F9AE014CD10304"
-               BuildableName = "MapApp.app"
-               BlueprintName = "MapApp"
-               ReferencedContainer = "container:MapApp.xcodeproj">
+               BlueprintIdentifier = "13E919EBCAB4617265316541"
+               BuildableName = "MapAppMacOS.app"
+               BlueprintName = "MapAppMacOS"
+               ReferencedContainer = "container:MapApp/MapApp.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D9BA57B3080A93D87BDDE85F"
+               BuildableName = "MapAppMacOSTests.xctest"
+               BlueprintName = "MapAppMacOSTests"
+               ReferencedContainer = "container:MapApp/MapApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +46,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4A48C503B930D78226446D1B"
-               BuildableName = "MapAppTests.xctest"
-               BlueprintName = "MapAppTests"
-               ReferencedContainer = "container:MapApp.xcodeproj">
+               BlueprintIdentifier = "D9BA57B3080A93D87BDDE85F"
+               BuildableName = "MapAppMacOSTests.xctest"
+               BlueprintName = "MapAppMacOSTests"
+               ReferencedContainer = "container:MapApp/MapApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -54,10 +68,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AEE7856710F9AE014CD10304"
-            BuildableName = "MapApp.app"
-            BlueprintName = "MapApp"
-            ReferencedContainer = "container:MapApp.xcodeproj">
+            BlueprintIdentifier = "13E919EBCAB4617265316541"
+            BuildableName = "MapAppMacOS.app"
+            BlueprintName = "MapAppMacOS"
+            ReferencedContainer = "container:MapApp/MapApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -71,10 +85,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AEE7856710F9AE014CD10304"
-            BuildableName = "MapApp.app"
-            BlueprintName = "MapApp"
-            ReferencedContainer = "container:MapApp.xcodeproj">
+            BlueprintIdentifier = "13E919EBCAB4617265316541"
+            BuildableName = "MapAppMacOS.app"
+            BlueprintName = "MapAppMacOS"
+            ReferencedContainer = "container:MapApp/MapApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
