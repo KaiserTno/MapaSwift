@@ -20,6 +20,4 @@ import ProjectDescriptionHelpers
 // MARK: - Project
 
 // Creates our project using a helper function defined in ProjectDescriptionHelpers
-let project = Project.app(name: "MapApp",
-                          platform: .macOS,
-                          additionalTargets: ["MapAppKit", "MapAppUI"])
+let project = Project.app(name: "MapApp", platform: .macOS, additionalTargets: [])

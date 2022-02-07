@@ -1,6 +1,4 @@
 import Cocoa
-import MapAppKit
-import MapAppUI
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
