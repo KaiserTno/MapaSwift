@@ -6,10 +6,15 @@
 #  bundle install
 
 setup:
+	make clean
 	curl -Ls https://install.tuist.io | bash
 	brew install carthage
 	carthage update
-
+	
+	gem install bundler
+	bundle install --quiet
+	bundle update
+	
 project:
 	killall Xcode || exit 0
 	make clean_dir
