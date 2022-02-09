@@ -2,7 +2,8 @@
 
 ## Modulo 1
 
-- Permitir que o usuário a partir de um local aleatório, encontre o ponto marcado no street.
+- Mostrar um local no street view ao usuario (ORIGEM)
+- Permitir que o usuário diga onde a ORIGEM se encontra no mapa
 - Adicionar um timer para finalizar o round
 - Exibir a distância até o ponto marcado no mapa
 - Permitir que o usuário possa recomeçar o jogo
