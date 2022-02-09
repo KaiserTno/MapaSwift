@@ -9,3 +9,17 @@ setup:
 	curl -Ls https://install.tuist.io | bash
 	brew install carthage
 	carthage update
+
+project:
+	killall Xcode || exit 0
+	make clean_dir
+	tuist generate
+	xed .
+
+clean_dir:
+	find ./Targets* -name "*.xcodeproj" -exec rm -Rf {} \; || exit 0
+	# rm -Rf ./**/*.xcodeproj
+	rm -rf *.xcworkspace
+
+clean:
+	make clean_dir
