@@ -30,9 +30,9 @@
 - Carthage
 - Google StreetView SDK
 - Fastlane
-- Bitrise
-- SonarCloud
 - SwiftLint
 - SwiftGen
 - Swift Code Formatters
+- SonarCloud
+- Bitrise
 - Danger
