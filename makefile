@@ -9,14 +9,12 @@ setup:
 	killall Xcode || exit 0
 	make clean
 	curl -Ls https://install.tuist.io | bash
-	brew install carthage
+	brew bundle --quiet || (brew update && brew bundle --quiet)
 	carthage update
-	
 	gem install bundler
 	bundle install --quiet
 	bundle update
-	brew install fastlane
-
+	
 project:
 	killall Xcode || exit 0
 	make clean_dir
