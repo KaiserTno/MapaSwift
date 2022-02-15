@@ -1,0 +1,9 @@
+format_version: 4
+
+workflows:
+  build:
+    steps:
+      - git::https://github.com/tuist/bitrise-step-tuist.git:
+          title: Build project
+          inputs:
+            - command: build
