@@ -1,5 +1,9 @@
 format_version: 4
 
+project_type: iOS
+app:
+  envs:
+  - MY_NAME: MapaSwift
 workflows:
   build:
     steps:
