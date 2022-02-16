@@ -87,7 +87,7 @@ fastlane/README.md
 
 ### Tuist derived files ###
 graph.dot
-Derived/
+# Derived/
 .tuist-bin/
 
 fastlane/Appfile

@@ -1,13 +1,21 @@
+---
 format_version: 4
-
-project_type: iOS
-app:
-  envs:
-  - MY_NAME: MapaSwift
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+trigger_map:
+- push_branch: "*"
+  workflow: primary
+- pull_request_source_branch: "*"
+  workflow: primary
 workflows:
-  build:
+  primary:
+    before_run:
+    - _run_from_repo
+  
+  _run_from_repo:
     steps:
-      - git::https://github.com/tuist/bitrise-step-tuist.git:
-          title: Build project
-          inputs:
-            - command: build
+    - activate-ssh-key:
+    - git-clone:
+    - bitrise-run:
+        title: continue from repo
+        inputs:
+        - workflow_id: $BITRISE_TRIGGERED_WORKFLOW_ID
