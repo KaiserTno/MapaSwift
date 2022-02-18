@@ -82,12 +82,12 @@ fastlane/logs/
 fastlane/README.md
 
 ### Projects ###
-# *.xcodeproj/
-# *.xcworkspace/
+*.xcodeproj/
+*.xcworkspace/
 
 ### Tuist derived files ###
 graph.dot
-# Derived/
+Derived/
 .tuist-bin/
 
 fastlane/Appfile
