@@ -15,4 +15,4 @@ brew 'carthage'
 brew 'fastlane'
 
 # Danger
-# brew 'danger/tap/danger-swift'
+brew 'danger/tap/danger-swift'
