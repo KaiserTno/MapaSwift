@@ -3,6 +3,9 @@
 ## Modulo 1
 
 - Mostrar um local no street view ao usuario (ORIGEM)
+- - Feature mostra a rua  (sdk generico)
+- - SDK GoogleStreet (implementar o sdk generico)
+- - 3 pacotes (feature, sdk generico (só interface), sdk google) 
 - Permitir que o usuário diga onde a ORIGEM se encontra no mapa
 - Adicionar um timer para finalizar o round
 - Exibir a distância até o ponto marcado no mapa
