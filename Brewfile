@@ -13,3 +13,6 @@ brew 'carthage'
 
 # Fastlane
 brew 'fastlane'
+
+# Danger
+brew 'danger/tap/danger-swift'
